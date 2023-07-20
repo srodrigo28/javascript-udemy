@@ -1,24 +1,17 @@
-class Pessoas {
-    constructor(nome, idade, capital, rendimento){
+class Pessoa {
+    constructor(nome) {
         this.nome = nome
-        this.idade = idade
-        this.capital = capital
-        this.rendimento = rendimento
     }
-
-    cliente(){
-        console.log(`Nome: ${this. nome} idade: ${this.idade}`)
-    }
-    renda(){
-        console.log(`
-            Nome: ${this. nome} 
-            idade: ${this.idade}, 
-            Capital: ${(this.capital * .1).toFixed(2)}`)
+    falar() {
+        console.log(`Meu nome é ${this.nome}`)
     }
 }
 
-// const p1 = new Pessoas('Maria', 20)
-// p1.cliente()
+const p1 = new Pessoa('João')
+p1.falar()
 
-const p2 = new Pessoas('João', 29, 80000)
-p2.renda()
+const pessoa = nome => {
+    return {
+        falar: () => console.log(`Meu nome é ${nome}`)
+    }
+}
