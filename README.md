@@ -24,3 +24,8 @@ https://www.udemy.com/course/javascript-curso-completo/learn/lecture/10506666#ov
 ```
 https://www.udemy.com/course/curso-web/learn/lecture/8898970?start=2#overview
 ```
+
+* Exemplo Axios
+``` Aula 155
+http://files.cod3r.com.br/curso-js/funcionarios.json
+```
